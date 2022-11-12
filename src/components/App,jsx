@@ -1,0 +1,14 @@
+import React, {Component} from 'react';
+
+class MiComponente extends Component {
+  render() {
+     this.customize();
+     return ( 
+       <ReactF1 id="ResponsiveHeader" data-f1= "header" >
+         <h1>Hola</h1>
+       </ReactF1>
+     );
+  }
+}
+
+export default MiComponente;
